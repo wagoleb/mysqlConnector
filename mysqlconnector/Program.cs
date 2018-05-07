@@ -55,6 +55,9 @@ namespace mysqlconnector
                     case 1045:
                         Console.WriteLine("Invalid username/password, please try again");
                         break;
+                    case 1042:
+                        Console.WriteLine("Problem: {0}", ex.Message);
+                        break;
                 }
                 return false;
             }
