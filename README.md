@@ -1,0 +1,2 @@
+# mysqlConnector
+polaczenie z mysql
